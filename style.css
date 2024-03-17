@@ -1,0 +1,370 @@
+/*!Reset css yaziriq.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3333
+}
+.headerfont {
+    margin-left: 25px;
+    position: relative;
+    left: 125px;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.iconone {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start ;
+    align-content:flex-start
+}
+.mainpage {
+    height: 1200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))  , url(./assets/images/0113f7a-227e-7e4-22dd-1552f70f404b_kajabi-bg.webp);
+    background-size: cover;
+    
+}
+.mainpagebg {
+    position:relative;
+    padding: 0px 400px;
+    top: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.media {
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(70, 70, 255);
+}
+.develop {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+.everyone {
+    font-size: 70px;
+    color:rgb(70, 70, 255);
+    font-weight: bold;
+}
+.project {
+    font-size: 20px;
+    color: white;
+}
+.learning {
+    width: 250px;
+    padding: 10px 0px;
+    margin: 40px 550px;
+    border-style: solid;
+    border-color:  rgb(70, 70, 255) ;
+    border-radius: 3%;
+    background-color: rgb(70, 70, 255) ;
+    color: white;
+    font-size: 20px;
+}
+
+.icons {
+    padding-top: 300px;
+    text-align: center;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    
+}
+
+.graduation {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.number {
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+}
+.oclock {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.people {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.icon2 {
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.icon1 {
+    padding-left: 20px;
+}
+.notify {
+    padding: 0px 50px;
+    height: 100px;
+    background-color: rgb(79, 79, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notifyme {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.input { 
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    border: 30px;
+
+}
+.buttonemail {
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border: 20px;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.secondpage {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+}
+
+.basliq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(79, 79, 216);
+    font-size: 50px;
+    font-weight: bold;
+}
+.table {
+    display:grid;
+    grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
+    gap: 30px;
+    text-align:left;
+    padding: 20px 10px;
+}
+.first {
+    grid-column: 2/3;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 50px 10px;
+    border: 10px;
+    border-color: bisque;
+    border-radius:5% ;
+}
+
+.second {
+    grid-column: 3/4;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 50px 10px;
+    border: 10px;
+    border-color: bisque;
+    border-radius:5% ;
+}
+
+.third {
+    grid-column: 4/5;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 50px 10px;
+    border: 10px;
+    border-color: bisque;
+    border-radius:5% ;
+}
+.paragraph {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.p {
+    color: white;
+    font-size: 20px;
+}
+.blue {
+    color:#8181fc ;
+    font-size: 20px;
+}
+span {
+    color: white;
+}
+
+.thirdpage {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+}
+
+.show {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(102, 102, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+.showsection {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forpage {
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(83, 83, 255);
+}
+.premium {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 1fr 1fr 20fr 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+
+.table1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 2%;
+}
+
+.table2 {
+    grid-column: 2/3;
+    grid-row: 2/5;
+    background-color: white;
+    border-radius: 2%;
+}
+.table3 {
+    grid-column: 3/4;
+    grid-row: 1/6;
+    background-color: rgba(0, 0, 0, 0.904);
+    border-radius: 2%;
+}
+.join {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paraqraf {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 20px;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.course1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight:bold ;
+    color: white;
+}
+.course2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight:bold ;
+    color: rgba(0, 0, 0, 0.61);
+}
+.course3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight:bold ;
+    color: white;
+}
+.one {
+    padding: 10px 30px;
+   text-align: left;
+    color: white;
+    font-size: 20px;
+}
+.bluebutton {
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(78, 78, 236);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 125px;
+}
+.two {
+    padding: 10px 30px;
+    text-align: left;
+     color: black;
+     font-size: 20px; 
+}
+.three {
+    padding: 10px 30px;
+   text-align: left;
+    color: white;
+    font-size: 20px;
+}
